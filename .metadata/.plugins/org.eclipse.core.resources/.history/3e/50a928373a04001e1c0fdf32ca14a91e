@@ -1,0 +1,40 @@
+package com.qualizeal.id;
+
+public class product2 {
+	public void setName(String name) {
+
+		this.String name = name;
+
+		}
+
+
+
+		public void setBrandName(String brandName) {
+
+		this.String brandName = brandName;
+
+		}
+
+		public boolean equals(Object obj) {
+
+		boolean status = false;
+
+
+		Product product2 = (Product) obj;
+
+
+		if(id == product2.getId()
+
+		&& name.equals(product2.getName())
+
+		&& brandName.equals(product2.getBrandName())) {
+
+		status = true;
+
+		}
+
+		return status;
+		}
+
+
+}
