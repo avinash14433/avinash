@@ -1,0 +1,19 @@
+{
+  "name": "harvee-qa-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sauce Demo shop-and-checkout test suite (Playwright + TypeScript)",
+  "scripts": {
+    "test": "playwright test --project=chromium",
+    "test:smoke": "playwright test --project=chromium --grep @smoke",
+    "test:all-browsers": "playwright test",
+    "test:headed": "playwright test --project=chromium --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.14.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.0"
+  }
+}
