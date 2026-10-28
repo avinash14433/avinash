@@ -3,3 +3,5 @@ test-results/
 playwright-report/
 results/
 .env
+.metadata/
+entity/
